@@ -1,12 +1,11 @@
 
-//------------> OFFICIAL CODE DEVELOPED BY  {mrtechb0yvasu/Vasudev kesharwani}  For project - "CHIKU :INTELEGENT OBSTICLE AVOIDER" 
-//____________________________________liberary & defination Section
 #include <Arduino.h>
 #include <NewPing.h>
 #include <Servo.h>
 #include <RH_ASK.h>
 #include <SPI.h> 
 
+// In dev branch 
 
 //defining the hardware pins
 #define TRIGGER_PIN  4
