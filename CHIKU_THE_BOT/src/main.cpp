@@ -1,11 +1,9 @@
-
+// developer - mrtechb0yvasu/Vasudev Keshari
 #include <Arduino.h>
 #include <NewPing.h>
 #include <Servo.h>
 #include <RH_ASK.h>
 #include <SPI.h> 
-
-// In dev branch 
 
 //defining the hardware pins
 #define TRIGGER_PIN  4
