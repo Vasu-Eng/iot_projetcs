@@ -1,1 +1,36 @@
-<h1>Controlling_Devices_By_HTML_Web_Page</h1>
+<h2>Controlling_Devices_By_HTML_Web_Page</h2>
+In this project  have created the HTML web page and contrling home appliences by esp8266 server.
+Here is my HTML web page --
+
+<!DOCTYPE HYML>
+<html>
+ <head>
+        <style>
+           	 .B1{
+           	 	background-color:Green;
+           	 	color:black;
+           	 	text-align:center;
+           	 	font-size: 100px;
+           	 }
+           	 .B2{
+           	 	background-color:Red;
+           	 	color:black;
+           	 	text-align:center;
+           	 	font-size: 100px;
+               }
+ 	
+           </style>    
+ </head>
+ <body>
+        <h1>"<span  style="color:Orange">Welcome to the </span><span style="color:Blue">My Webpage!</span>"</h1>
+        <h2>Here is your  LED Control</h3>
+        <br> 
+             <a href="/led1on"><button class="B1">LED 1 ON</button></a>
+             <a href="/led1off"><button class="B2">LED 1 OFF</button></a>
+        </br>
+        <br>
+             <a href="/led2on"><button class="B1">LED 2 ON</button> </a>
+             <a href="/led2off"><button class="B2">LED 2 OFF</button></a>
+        </br>
+  <body>
+</html>
